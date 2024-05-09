@@ -411,7 +411,7 @@ void InferRequestPool::processResult(size_t index) {
                 //推送消息
                 msg.yaw = yaw;
                 msg.pitch = pitch;
-                msg.distance = distance;
+                msg.target_distance = distance;
                 publisher_->publish(msg);
 
             }
@@ -447,7 +447,7 @@ void InferRequestPool::processResult(size_t index) {
                 //msg.data = "Type:" + std::to_string(class_id_point_outside.x) + ",Center original:" + centerStr + ",Confidence:" + std::to_string(maxClassScore_outside) + ",Distance:" + std::to_string(distance) + ",Yaw:" + std::to_string(yaw) + ",Pitch:" + std::to_string(pitch);
                 msg.yaw = yaw;
                 msg.pitch = pitch;
-                msg.distance = distance;
+                msg.target_distance = distance;
 
                 publisher_->publish(msg);
             }
