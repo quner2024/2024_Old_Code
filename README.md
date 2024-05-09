@@ -14,7 +14,14 @@
 #
 
 ## Build & Installation
-
+> 如果你所在的地区访问Github速度慢或存在困难
+> 可使用反向代理加速下载
+> 反向代理: https://r.qunercloud.com
+> 
+```sh
+git clone https://r.qunercloud.com/https://github.com/qunerCloud/Robomaster_2024_XJTLU_Vision.git
+```
+>
 #### Environment requirements
 - OpenVINO 2023.2  settled in /opt/intel
 - ROS2 Humble (other version is OK)  settled in /opt/ros
