@@ -5,7 +5,7 @@
 - CPU+GPU Inference
 - Higer Inference FPS
 - Multi threads boosting included
-- Linking with ROS2 messages (gary_msgs included written by [myaki-moe](https://github.com/myaki-moe) & [W-YXN](https://github.copm/W-YXN))
+- Linking with ROS2 messages (gary_msgs included written by [myaki-moe](https://github.com/myaki-moe) & [W-YXN](https://github.com/W-YXN))
 #
 
 > 请注意，此版本代码为异步多线程版本
