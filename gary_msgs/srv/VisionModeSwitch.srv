@@ -1,0 +1,8 @@
+uint8 mode
+
+uint8 MODE_ARMOR                     = 1
+uint8 MODE_SMALL                     = 2
+uint8 MODE_BIG                       = 3
+uint8 MODE_TAG                       = 4
+---
+bool succ
