@@ -38,7 +38,6 @@ std::chrono::steady_clock::time_point lastTime1 = std::chrono::steady_clock::now
 int frameCount1 = 0;
 
 
-//动态模型的优越性
 int img_width = 640;
 int img_height = 512;
 
